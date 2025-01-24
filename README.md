@@ -1,123 +1,101 @@
 # Tajemství salesiánské zdi
 
-The simple web application for test salasian's base knowledge. 
+Jednoduchá webová aplikace pro testování znalostí základů salesiánské spirituality.
 
 > [!NOTE]
-> This README was generate by ChatGPT4o.
+> Tento README soubor byl vygenerován pomocí ChatGPT4.
 
-Welcome to the **Salesian Times** repository! This project is an interactive, web-based game designed to engage users in discovering the core principles of Salesian spirituality through an outdoor challenge.
+Vítejte v repozitáři **Salesian Times**! Tento projekt je interaktivní webová hra, která zapojuje uživatele do objevování klíčových principů salesiánské spirituality prostřednictvím venkovní výzvy.
 
----
 
-## Project Overview
 
-**Salesian Times** is an interactive experience where participants solve a puzzle by discovering four key Salesian principles inscribed on an outdoor wall. Once the correct words are submitted on the login page, users are redirected to a secret instruction page with additional guidance.
+## Přehled projektu
 
----
+**Salesian Times** je interaktivní zážitek, kde účastníci řeší hádanku objevením čtyř klíčových salesiánských principů napsaných na venkovní zdi. Po správném zadání slov na přihlašovací stránce jsou uživatelé přesměrováni na tajnou stránku s dalšími instrukcemi.
 
-## Features
 
-1. **Home Page**  
-   - Presents a styled newsfeed featuring articles related to community and youth development.
-   - Includes a login form where participants input the four discovered Salesian principles.
 
-2. **Secret Page**  
-   - Displays a congratulatory message and detailed descriptions of the four principles: **school, playground, home, and church**.
-   - Provides instructions for the next steps in the interactive game.
+## Funkce
 
-3. **Responsive Design**  
-   - The project uses inline CSS directly within the HTML files for styling, ensuring simplicity and ease of deployment.
-   - No external CSS file is required.
+1. **Úvodní stránka**  
+   - Obsahuje novinový feed s články zaměřenými na komunitní a mládežnické aktivity.  
+   - Obsahuje přihlašovací formulář, kam účastníci zadávají čtyři objevená salesiánská slova.
 
-4. **Cloudflare Pages Hosting**  
-   - The website is hosted on **Cloudflare Pages** and is accessible at:  
+2. **Tajná stránka**  
+   - Zobrazuje gratulaci a detailní popisy čtyř principů: **škola, hřiště, domov, kostel**.  
+   - Poskytuje pokyny pro další kroky ve hře.
+
+3. **Responzivní design**  
+   - Projekt používá inline CSS přímo v HTML souborech, což zajišťuje jednoduchost a snadné nasazení.  
+   - Nevyžaduje žádný externí CSS soubor.
+
+4. **Hostování na Cloudflare Pages**  
+   - Web je hostován na **Cloudflare Pages** a je dostupný na adrese:  
      [https://salesian-times.salesianipardubice.cz](https://salesian-times.salesianipardubice.cz).
 
-5. **Compact File Structure**  
-   - Contains only essential HTML files (`index.html` and `secret.html`) with embedded styles and scripts for straightforward deployment.
+5. **Kompaktní struktura souborů**  
+   - Obsahuje pouze základní HTML soubory (`index.html` a `secret.html`) s vestavěnými styly a skripty.
 
----
 
-## Core Principles
 
-### 1. School
-Salesian schools focus on more than just academic learning. They aim to nurture character and values, providing an environment where students feel respected and supported by their teachers and peers.
+## Jak to funguje
 
-### 2. Playground
-Symbolizing joy and community, the playground fosters collaboration, mutual respect, and lifelong friendships. It is a space of enthusiasm and shared experiences.
+1. **Krok 1**: Účastníci hledají čtyři slova napsaná na venkovní zdi u salesiánského střediska.  
+2. **Krok 2**: Zadejte objevená slova do přihlašovacího formuláře na úvodní stránce.  
+3. **Krok 3**: Správné zadání odemkne tajnou stránku s dalšími instrukcemi.
 
-### 3. Home
-Home represents acceptance and safety. The Salesian approach creates a family-like atmosphere where everyone feels valued and supported.
 
-### 4. Church
-The church signifies the spiritual dimension of Salesian life, encouraging a living and joyful faith. It is a place for reflection, service, and community.
 
----
+## Jak začít
 
-## How It Works
+### Požadavky
+- Webový server pro hostování HTML souborů (pokud hostujete lokálně).  
+- Základní znalost HTML pro případnou úpravu.
 
-1. **Step 1**: Participants find the four words inscribed on the wall outside the Salesian center.
-2. **Step 2**: Enter the discovered words into the login form on the home page.
-3. **Step 3**: Correct submissions unlock the secret page with further instructions and congratulatory messages.
-
----
-
-## Getting Started
-
-### Prerequisites
-- A web server to host the HTML and assets (if hosting locally).
-- Basic knowledge of HTML for customization.
-
-### Installation
-1. Clone the repository:
+### Instalace
+1. Naklonujte repozitář:
    ```bash
    git clone https://github.com/username/salesian-times.git
    ```
-2. Navigate to the project folder:
+2. Přesuňte se do složky projektu:
    ```bash
    cd salesian-times
    ```
-3. Deploy the project locally or on any web hosting platform (e.g., Cloudflare Pages).
+3. Nasazení projektu na libovolnou hostingovou platformu (např. Cloudflare Pages).
 
----
 
-## File Structure
 
-- `index.html` - Home page with the login form.
-- `secret.html` - The secret page with principles and next steps.
+## Struktura souborů
 
----
+- `index.html` - Úvodní stránka s přihlašovacím formulářem.  
+- `secret.html` - Tajná stránka s principy a dalšími kroky.
 
-## Technologies Used
 
-- **HTML5**: For structuring the web pages.
-- **Inline CSS**: For responsive and elegant styling directly within the HTML.
-- **JavaScript**: For form validation and navigation.
-- **Cloudflare Pages**: For hosting the project.
 
----
+## Použité technologie
 
-## Contribution Guidelines
+- **HTML5**: Pro strukturování webových stránek.  
+- **Inline CSS**: Pro responzivní a jednoduché styly přímo v HTML.  
+- **JavaScript**: Pro validaci formuláře a navigaci.  
+- **Cloudflare Pages**: Pro hostování projektu.
 
-We welcome contributions to improve the project! Please follow these steps:
 
-1. Fork the repository.
-2. Create a new branch:
+
+## Pravidla pro přispívání
+
+Rádi přivítáme vaše příspěvky ke zlepšení projektu! Postupujte podle následujících kroků:
+
+1. Vytvořte si fork repozitáře.  
+2. Vytvořte novou větev:
    ```bash
    git checkout -b feature-name
    ```
-3. Commit your changes:
+3. Uložte své změny:
    ```bash
-   git commit -m "Add new feature"
+   git commit -m "Přidání nové funkce"
    ```
-4. Push to your fork and submit a pull request.
+4. Nahrajte změny na svůj fork a vytvořte pull request.
 
----
+## Licence
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
----
-
-Visit the live site at [salesian-times.salesianipardubice.cz](https://salesian-times.salesianipardubice.cz) and enjoy exploring the **Salesian Times** interactive web game! 🚀
+Tento projekt je licencován pod MIT licencí. Více informací naleznete v souboru `LICENSE`.
